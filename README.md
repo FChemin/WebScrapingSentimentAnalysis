@@ -141,7 +141,7 @@ col <- brewer.pal(6, "Dark2")
 wordcloud(tweets_clean, min.freq=3, scale=c(3,.5),rot.per = 0.15, random.color=T, max.word=100, random.order=F,colors=col)
 ```
 
-![](figure/graph-unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/FChemin/WebScrapingSentimentAnalysis/blob/master/graph-unnamed-chunk-6-1.png)
 
 Nous pouvons voir à partir du nuage que les mots les plus fréquents sont "concours", "jeu", "gagner", "packs", "octobre" et "tenter". Il s'agit possiblement d'un jeu-concours avant le lancement du film dans une semaine...
 
@@ -236,7 +236,7 @@ colors = c("red", "yellow", "green", "violet")
 barplot(mr[[1]], main="Critique du Film", xlab="Nombre de votes",legend=mr[[2]],col=colors)
 ```
 
-![](figure/graph-unnamed-chunk-11-1.png)<!-- -->
+![](https://github.com/FChemin/WebScrapingSentimentAnalysis/blob/master/graph-unnamed-chunk-11-1.png)
 
 Il semblerait donc qu'avant sa sortie en salle, ce film ait un accueil plutôt positif.
 

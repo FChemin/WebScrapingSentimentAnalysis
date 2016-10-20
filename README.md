@@ -240,4 +240,4 @@ barplot(mr[[1]], main="Critique du Film", xlab="Nombre de votes",legend=mr[[2]],
 
 Il semblerait donc qu'avant sa sortie en salle, ce film ait un accueil plutôt positif.
 
-Le code complet ainsi que le lexique et les graphiques sont disponibles sur [mon Github](https://github.com/FChemin/SentimentAnalysis).
+Le code complet ainsi que le lexique et les graphiques sont disponibles sur [mon Github](https://github.com/FChemin/WebScrapingSentimentAnalysis).

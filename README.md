@@ -8,11 +8,11 @@ Ce post présente une utilisation de [l'opinion mining](https://fr.wikipedia.org
 
 L'objectif est de créer un système présentant le ressenti des personnes s'étant exprimées sur Twitter à propos d'un film. L'implémentation d'un tel système se fait en 5 étapes:
 
-1) Obtenir les tweets de Twitter
-2) Nettoyer les données
-3) Créer une nuage de mots-clés
-4) Créer un dictionnaire
-5) Donner un score à chaque tweet
+1. Obtenir les tweets de Twitter
+2. Nettoyer les données
+3. Créer une nuage de mots-clés
+4. Créer un dictionnaire
+5. Donner un score à chaque tweet
 
 Nous prendrons comme exemple le film [Doctor Strange](http://www.imdb.com/title/tt1211837/?ref_=nv_sr_1) qui sort sur les écrans le 26 octobre 2016. Ceci nous permettra de faire une comparaison avant/après sa sortie en salle.
 

@@ -66,9 +66,9 @@ afinn_list$word <- tolower(afinn_list$word)
 
 # Catégoriser les mots de très négatif à très positif
 vNegTerms <- afinn_list$word[afinn_list$score==-5 | afinn_list$score==-4]
-negTerms <- c(afinn_list$word[afinn_list$score==-3 | afinn_list$score==-2 | afinn_list$score==-1])
-posTerms <- c(afinn_list$word[afinn_list$score==3 | afinn_list$score==2 | afinn_list$score==1])
-vPosTerms <- c(afinn_list$word[afinn_list$score==5 | afinn_list$score==4])   
+negTerms <- afinn_list$word[afinn_list$score==-3 | afinn_list$score==-2 | afinn_list$score==-1]
+posTerms <- afinn_list$word[afinn_list$score==3 | afinn_list$score==2 | afinn_list$score==1]
+vPosTerms <- afinn_list$word[afinn_list$score==5 | afinn_list$score==4]
 
 # Calculer le score pour chaque tweet
 tweetResult <- as.data.frame(sentimentScore(tweets_txt, vNegTerms, negTerms, posTerms, vPosTerms))
